@@ -1,0 +1,16 @@
+---
+- provider_name: Biograffi
+  provider_url: http://biograffi.com
+  endpoints:
+  - schemes:
+    - http://biograffi.com/fetchpostweb.php/*
+   
+    - http://biograffi.com/fetchpostweb.php/*
+   
+    url: http://www.biograffi.com/oembed
+    
+    example_urls:
+    - http://www.biograffi.com/oembed?url=http%3A%2F%2Fbiograffi.com%2Ffetchpostweb.php%2F959
+    formats:
+    - json
+...
